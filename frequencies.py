@@ -1,9 +1,9 @@
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
 
-def frequencies(*args):
+def frequencies(items):
     frequencies = {}
-    for item in args:
+    for item in items:
         item_ = str(item)
         if item_ in frequencies.keys():
             frequencies[item_] += 1
